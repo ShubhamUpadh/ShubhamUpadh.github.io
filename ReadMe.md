@@ -1,6 +1,3 @@
-<img src="https://github.com/ShubhamUpadh/ShubhamUpadh.github.io/blob/master/DP.png" alt="Shubham Upadhyay" style="border: 2px solid black;">
-
-
 # 💫 About Me:
 🔭 I’m currently working on writing robust backend services using Django and DRF<br>🌱 I’m currently learning React JS
 
