@@ -1,4 +1,3 @@
-<div style="background-color:black; color:white; padding:20px;">
 # 💫 About Me:
 🔭 I’m currently working on writing robust backend services using Django and DRF<br>🌱 I’m currently learning React JS
 
@@ -18,5 +17,4 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ShubhamUpadh&icon=0&color=0)](https://visitcount.itsvg.in)
-</div>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
