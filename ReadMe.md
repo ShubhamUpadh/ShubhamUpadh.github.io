@@ -14,7 +14,7 @@
         <p><a href="https://instagram.com/shubhamupadhyay98"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white"></a> <a href="https://linkedin.com/in/shubhupadh"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"></a></p>
 
         <h1>💻 Tech Stack:</h1>
-        <!-- Your tech stack badges here --><h1>💻 Tech Stack:</h1>
+        <!-- Your tech stack badges here -->
             <div>
                 <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
                 <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
@@ -40,11 +40,14 @@
 
 
         <h1>📊 GitHub Stats:</h1>
-        <!-- Your GitHub stats here -->
-        
-        ![](https://github-readme-stats.vercel.app/api?username=ShubhamUpadh&theme=dark&hide_border=true&include_all_commits=true&count_private=false)<br/>
-        ![](https://github-readme-streak-stats.herokuapp.com/?user=ShubhamUpadh&theme=dark&hide_border=true)<br/>
-        ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ShubhamUpadh&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+            <div>
+                <img src="https://github-readme-stats.vercel.app/api?username=ShubhamUpadh&theme=dark&hide_border=true&include_all_commits=true&count_private=false" alt="GitHub Stats">
+                <br>
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShubhamUpadh&theme=dark&hide_border=true" alt="GitHub Streak">
+                <br>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShubhamUpadh&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages">
+            </div>
+
 
         <hr>
 
