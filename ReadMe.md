@@ -1,4 +1,4 @@
-<img src="https://example.com/your-photo.jpg" alt="Shubham Upadhyay" style="border: 2px solid black;">
+<img src="https://github.com/ShubhamUpadh/ShubhamUpadh.github.io/blob/master/DP.png" alt="Shubham Upadhyay" style="border: 2px solid black;">
 
 
 # 💫 About Me:
