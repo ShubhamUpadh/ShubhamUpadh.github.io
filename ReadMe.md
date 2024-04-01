@@ -1,3 +1,4 @@
+<div style="background-color:black; color:white; padding:20px;">
 # 💫 About Me:
 🔭 I’m currently working on writing robust backend services using Django and DRF<br>🌱 I’m currently learning React JS
 
