@@ -1,3 +1,6 @@
+<img src="https://example.com/your-photo.jpg" alt="Shubham Upadhyay" style="border: 2px solid black;">
+
+
 # 💫 About Me:
 🔭 I’m currently working on writing robust backend services using Django and DRF<br>🌱 I’m currently learning React JS
 
