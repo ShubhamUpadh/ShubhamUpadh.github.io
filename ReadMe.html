@@ -4,28 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        body{
+            font-family: sans-serif;
+        }
         .hover-btn {
+            display: inline-block;
             background-color: #121212; /* Default button color */
             color: white;
-            padding: 10px 20px;
-            border: #C0C0C0;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            border: 1px solid #C0C0C0;
             cursor: pointer;
             transition: background-color 0.3s ease; /* Transition effect for color change */
         }
 
         .hover-btn:hover {
-            background-color: #0a0a0a; /* Color on hover */
+            background-color: #5a104e; /* Color on hover */
         }
+
+        a {
+            color: inherit; /* Use the parent's text color */
+            text-decoration: none; /* Remove underline */
+        }
+
+        .hello{
+            height: 500px;
+            font-size: 25px;
+            color: black;
+            background-color: #FFF;
+            width: 100%;
+        }
+
+        .hello-text-one{
+            font-size: 25px;
+            color: #0E2431;
+            font-weight: bold;
+        }
+
+        .hello-text-two{
+            font-size: 75px;
+            color: #0E2431;
+        }
+
+        .hello-text-three{
+            font-size: 40px;
+            color: #4070f4;
+        }
+
+        .resume-btn{
+            margin-top: 20px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            background-color:#4070f4;
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width:150px;
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            color: #FFF;
+            font-weight: normal;
+            transition: all 0.4s ease;
+        }
+
+        .resume-btn:hover{
+            border:2px solid #4070f4;
+            background-color: #FFF;
+            box-sizing: border-box;
+            color:#4070f4;
+        }
+
     </style>
 </head>
 
-<body style="background-color: #121212; color: white;">
+<body>
     <div style="padding: 20px;">
-        <h1>💫 About Me:</h1>
-        <h1>💫 About Me:</h1>
-        <p> I am a Sofware Developer with hands on experience in backend developement and dabble a bit in FrontEnd Developement too. I love getting to the root of issues, identifying issues with currently existing solution and creating robust solutions to tackle the issues.</p>
-        <div class = "hover-btn">My Resume</div>
+        <div class ="hello">
+            <div class ="hello-text-one">Hello</div>  
+            <div class="hello-text-two" "><b>I'm Shubham</b></div>
+            <div class = "hello-text-three">Software Developer</div>
+            <div class = "hello-text-one">from Bengaluru </div>
+            <div class ="resume-btn"><a href="https://docs.google.com/document/d/e/2PACX-1vSwI1U24syw1eQ40pZEzhS82cNKhBOTIQByBsdxoh7cEGpmy_WhHIkO5Ok253N7c-GGJSz8lumcnRx-/pub" target="_blank">My Resume</a></div>
+
+            
+        </div>
+        <p> I am a Sofware Developer with hands on experience in backend developement and dabble a bit in FrontEnd Developement too. I love getting to the root of problems and creating resilient solutions.</p>
         <p>🔭 I’m currently working on writing robust backend services using Django and DRF<br>🌱 I’m currently learning React JS</p>
+        <div class = "hover-btn"><h3><a href = "https://docs.google.com/document/d/e/2PACX-1vSwI1U24syw1eQ40pZEzhS82cNKhBOTIQByBsdxoh7cEGpmy_WhHIkO5Ok253N7c-GGJSz8lumcnRx-/pub">My Resume</a></h3></div>
         <h1>🚀 My Projects:</h1>
             <div>              
             </div>
