@@ -2,3 +2,77 @@
 	color: black;
 	background-color: #FFF;
 }
+
+body{
+    font-family: sans-serif;
+}
+.hover-btn {
+    display: inline-block;
+    background-color: #121212; /* Default button color */
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px solid #C0C0C0;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition effect for color change */
+}
+
+.hover-btn:hover {
+    background-color: #5a104e; /* Color on hover */
+}
+
+a {
+    color: inherit; /* Use the parent's text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.hello{
+    padding-top:150px;
+    height: 400px;
+    font-size: 25px;
+    color: black;
+    background-color: #FFF;
+    width: 100%;
+}
+
+.hello-text-one{
+    font-size: 25px;
+    color: #0E2431;
+    font-weight: bold;
+}
+
+.hello-text-two{
+    font-size: 75px;
+    color: #0E2431;
+}
+
+.hello-text-three{
+    font-size: 40px;
+    color: #4070f4;
+}
+
+.resume-btn{
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color:#4070f4;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:150px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: #FFF;
+    font-weight: normal;
+    transition: all 0.4s ease;
+}
+
+.resume-btn:hover{
+    border:2px solid #4070f4;
+    background-color: #FFF;
+    box-sizing: border-box;
+    color:#4070f4;
+}
