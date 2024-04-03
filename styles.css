@@ -5,7 +5,50 @@
 
 body{
     font-family: sans-serif;
+    margin: 0;
 }
+
+.header {
+  padding: 10px 16px;
+  border: 0px;
+  background: #FFF;
+  transition: all 0.3s ease; /* Smooth transition for color change */	
+}
+
+
+.header h2{
+	margin: 0;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+
+  background: #4070f4;
+  color: #FFF;
+}
+
+.header.scrolled {
+    background-color: #4070f4; /* Change color on scroll */
+    color: white;
+}
+
+.header .text-one{
+	color: #4070f4;
+	font-size: 50px;
+	transition: color 0.3s ease;
+}
+.header.scrolled .text-one {
+    color: white; /* Change text color to white on scroll */
+}
+
 .hover-btn {
     display: inline-block;
     background-color: #121212; /* Default button color */
