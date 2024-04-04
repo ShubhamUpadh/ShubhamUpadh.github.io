@@ -1,30 +1,66 @@
-.hello{
-	color: black;
-	background-color: #FFF;
+html {
+	scroll-behavior: smooth;
 }
 
-body{
+
+
+*{
     font-family: sans-serif;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 .header {
-  padding: 10px 16px;
-  border: 0px;
-  background: #FFF;
-  transition: all 0.3s ease; /* Smooth transition for color change */	
+    padding: 10px 16px;
+    border: 0px;
+    background: #FFF;
+    transition: all 0.3s ease; /* Smooth transition for color change */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
+.menu{
+    display: flex;
+    justify-content: center; /* Center menu items horizontally */
+    align-items: center;
+    flex-grow: 1; /* Allow the menu to grow and take up remaining space */
+    margin: auto;
+    list-style-type: none;
+}
+
+.menu li{
+    margin-right: 20px;
+} 
+
+.menu li a{
+	font-size: 20px;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.social-links{
+    display: flex;
+    justify-content: flex-end; /* Align link images to the right */
+    align-items: center;
+    margin: auto;
+    list-style-type: none;
+}
+
+.social-links li{
+    margin-right: 20px;
+} 
 
 .header h2{
-	margin: 0;
+    margin: 0;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
@@ -49,6 +85,23 @@ body{
     color: white; /* Change text color to white on scroll */
 }
 
+.header.scrolled .menu li a{
+	color: white;
+}
+
+.hello-anchor {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+    transition: all 0.3s ease; /* Smooth transition for color change */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: scroll;
+    z-index: 1; /* Ensure this div appears above the underlying content */
+}
+
 .hover-btn {
     display: inline-block;
     background-color: #121212; /* Default button color */
@@ -71,8 +124,9 @@ a {
     text-decoration: none; /* Remove underline */
 }
 
-.hello{
-    padding-top:150px;
+
+
+.hello{    
     height: 400px;
     font-size: 25px;
     color: black;
@@ -119,3 +173,11 @@ a {
     box-sizing: border-box;
     color:#4070f4;
 }
+
+.about-me {
+    position: sticky;
+    top: 0;
+    z-index: 2; /* Ensure this div appears above hello-anchor */
+    background-color: white; /* Set background color as needed */
+    padding: 20px;
+}	
