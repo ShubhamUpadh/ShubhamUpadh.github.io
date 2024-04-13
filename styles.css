@@ -92,8 +92,8 @@ html {
 #home {
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
     transition: all 0.3s ease; /* Smooth transition for color change */
     display: flex;
     justify-content: space-between;
@@ -172,9 +172,131 @@ a {
 }
 
 .about-me {
-    position: sticky;
-    top: 0;
-    z-index: 2; /* Ensure this div appears above hello-anchor */
-    background-color: white; /* Set background color as needed */
-    padding: 20px;
+	background-color: #f1f0fe;
 }	
+
+.about-me .center {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.about-me-heading{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: underline;
+	text-underline-offset: 20px;
+	text-decoration-color: #4070f4;
+}
+
+
+.flex-container{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 100px;
+}
+
+.flex-container div{
+	max-width: 600px;
+}
+
+.flex-container img{
+	border: 2px solid transparent;
+	border-radius: 15px;
+}
+
+.linkedin-btn{
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color:#4070f4;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:200px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: #FFF;
+    font-weight: normal;
+    transition: all 0.4s ease;
+    font-size: 25px;
+}
+
+.linkedin-btn:hover{
+    border:2px solid #4070f4;
+    background-color: #FFF;
+    box-sizing: border-box;
+    color:#4070f4;
+}
+
+.am-text-headline{
+	font-size: 30px;
+	padding-bottom: 25px;
+}
+
+.am-text{
+}
+
+.my-skills{
+	background-color: #FFF;
+}
+
+.my-skills .center {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.my-skills-heading{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: underline;
+	text-underline-offset: 20px;
+	text-decoration-color: #4070f4;
+}
+
+.skill-card{
+	padding:20px;
+	min-height: 250px;
+	min-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	width: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+.skill-card:hover{
+	background-color: #4070f4;
+	color: #FFF;
+}
+
+.skill-logo-circle{
+	width:50px;
+	border-radius:50px;
+	background-color: white;
+}
+
+.skill-logo img{
+	width: 50px;
+}
+
+.skill-name{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.skill-description{
+	text-align: center;
+}
+
