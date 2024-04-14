@@ -191,7 +191,13 @@ a {
 	text-decoration-color: #4070f4;
 }
 
+#skills-anchor{
 
+}
+.my-skills .flex-container{
+	gap:30px;
+	flex-wrap: wrap;
+}
 .flex-container{
 	display: flex;
 	justify-content: space-evenly;
@@ -300,3 +306,15 @@ a {
 	text-align: center;
 }
 
+#projects-anchor{
+}
+
+.my-projects{
+	background-color: #f1f0fe;
+}
+
+.my-projects .center{
+	text-align: center;
+	font-size: 60px;
+	font-weight: bolder;
+}
