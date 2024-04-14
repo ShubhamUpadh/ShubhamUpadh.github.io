@@ -318,3 +318,16 @@ a {
 	font-size: 60px;
 	font-weight: bolder;
 }
+
+.my-projects .flex-container{
+	gap:30px;
+	flex-wrap: wrap;
+}
+
+.my-projects .flex-container .skill-card{
+
+}
+
+.my-projects .flex-container .skill-card .skill-logo-circle{
+	background-color: #f1f0fe;
+}
