@@ -247,6 +247,7 @@ a {
 .am-text{
 }
 
+/*skills*/
 .my-skills{
 	background-color: #FFF;
 }
@@ -267,6 +268,45 @@ a {
 	text-decoration-color: #4070f4;
 }
 
+
+.skill-flex{
+	padding-left: 200px;
+	padding-right: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 100px;
+	flex-wrap: wrap;
+}
+
+.skill-highlight{
+	display: flex;
+	margin:5px;
+	padding: 2px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	
+	border-radius: 10px;
+	border: 2px solid #4070f4;
+	transition: all 0.3s ease;	
+}
+
+.skill-highlight:hover{
+	background-color: #f1f0fe;
+}
+
+
+.skill-highlight-logo img{
+	width: 25px;
+}
+.skill-highlight-text{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
 .skill-card{
 	padding:20px;
 	min-height: 250px;
@@ -280,6 +320,10 @@ a {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 10px;
 	transition: all 0.3s ease;
+}
+
+.skill-card img{
+	width: 50px;
 }
 
 .skill-card:hover{
